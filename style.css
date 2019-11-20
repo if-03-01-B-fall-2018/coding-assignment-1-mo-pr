@@ -65,13 +65,13 @@ hr{
 	width: 10%;
   height: auto;
 }
-#WEBSERV, #CSS, #HelloW, #CSSLISTS, #CSSTABELS, #CLASSANDID, #Heading{
+#WEBSERV, #CSS, #HelloW, #CSSLISTS, #CSSTABELS, #CLASSANDID, #Heading, #information{
 	background-color: #f0f0f0;
 	padding: 5px;
 	box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 	padding-left: 15px;
 }
-#WEBCL, #WWWHTML, #WWW, #HTMLLISTS, #HTMLTABELS, #BOX, #FLOATING{
+#WEBCL, #WWWHTML, #WWW, #HTMLLISTS, #HTMLTABELS, #BOX, #FLOATING, #topic{
 	padding: 5px;
 	padding-left: 15px;
 }
@@ -167,6 +167,13 @@ li{
 	border: 2px solid #494949;
 	border-radius: 25px;
 }
+#topicheading{
+	border-bottom: 2px solid #494949;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	width: 750px;
+	margin-left: 25%;
+}
 @keyframes Header{
 	from{background-color: #ffffff;}
 	to{background-color: #f0f0f0f;}
@@ -175,6 +182,9 @@ footer{
 	padding: 10px;
 	text-align: center;
 	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-image: linear-gradient(#f0f0f0, #ffffff);
 }
 footer a{
 	font-size: 20px;
