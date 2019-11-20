@@ -39,6 +39,11 @@ h1{
 	font-size: 45px;
 	margin-bottom: 25px;
 }
+h2{
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 15px;
+}
 #HOME{
 	box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 	background-color: #f0f0f0;
@@ -147,6 +152,20 @@ li{
 #Heading{
 	animation-name: Header;
 	animation-duration: 4s;
+}
+#tableOne{
+	float: left;
+	margin-left: 10px;
+}
+#tableTwo{
+	float: right;
+	margin-right: 10px;
+}
+#tableOne,#tableTwo{
+	min-width: 49%;
+	text-align: center;
+	border: 2px solid #494949;
+	border-radius: 25px;
 }
 @keyframes Header{
 	from{background-color: #ffffff;}
